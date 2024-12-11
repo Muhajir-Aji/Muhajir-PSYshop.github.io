@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <form action="process_order.php" method="POST">
+            <h2>Ringkasan Pesanan</h2>
+            <p>Produk: Kaos Putih Polos</p>
+            <p>Harga: Rp100.000</p>
+            <p>Total: Rp100.000</p>
+            <input type="hidden" name="total_price" value="100000">
+            <button type="submit">Bayar Sekarang</button>
+        </form>
+    </main>
+</body>
+</html>
+

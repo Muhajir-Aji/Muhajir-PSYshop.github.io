@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSYshop</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>PSYshop</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Daftar</a>
+            <a href="cart.html">Keranjang</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="order_history.html">Riwayat Pesanan</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <!-- Produk 1 -->
+            <div class="product">
+                <img src="assets/images/kaos1.jpg" alt="Kaos Putih Polos">
+                <h3>Kaos Overzise Shadows</h3>
+                <p>Rp100.000</p>
+                <a href="product.html">Lihat Detail</a>
+                <button onclick="addToCart('Kaos Overzise Shadows', 100000)">Tambah ke Keranjang</button>
+                <button onclick="addToWishlist('Kaos Putih Polos')">Tambah ke Wishlist</button>
+            </div>
+            <!-- Produk 2 -->
+            <div class="product">
+                <img src="assets/images/kaos2.jpg" alt="Kaos Hitam Polos">
+                <h3>Kaos Oversize Toxic</h3>
+                <p>Rp120.000</p>
+                <a href="product.html">Lihat Detail</a>
+                <button onclick="addToCart('Kaos Hitam Polos', 120000)">Tambah ke Keranjang</button>
+                <button onclick="addToWishlist('Kaos Oversize Toxic')">Tambah ke Wishlist</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 PSYshop. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+

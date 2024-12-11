@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelola Produk</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kelola Produk</h1>
+    </header>
+    <main>
+        <h2>Tambah Produk Baru</h2>
+        <form action="../add_product.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Nama Produk:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="description">Deskripsi:</label>
+            <textarea id="description" name="description"></textarea>
+            
+            <label for="price">Harga:</label>
+            <input type="number" id="price" name="price" required>
+            
+            <label for="image">Gambar:</label>
+            <input type="file" id="image" name="image" required>
+            
+            <button type="submit">Tambah Produk</button>
+        </form>
+    </main>
+</body>
+</html>
+
